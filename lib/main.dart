@@ -36,7 +36,7 @@ class LogIn extends StatelessWidget {
           children: <Widget>[
             ButtonTheme(
               height: 50.0,
-              child: RaisedButton(
+              child: ElevatedButton(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
@@ -51,7 +51,10 @@ class LogIn extends StatelessWidget {
                     ),
                   ],
                 ),
-                color: Colors.white,
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.white,
+                  minimumSize: Size(100, 50),
+                ),
                 onPressed: () {},
               ),
               shape: RoundedRectangleBorder(
@@ -65,7 +68,7 @@ class LogIn extends StatelessWidget {
             ),
             ButtonTheme(
               height: 50.0,
-              child: RaisedButton(
+              child: ElevatedButton(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
@@ -80,7 +83,10 @@ class LogIn extends StatelessWidget {
                     ),
                   ],
                 ),
-                color: Color(0xFF334D92),
+                style: ElevatedButton.styleFrom(
+                  primary: Color(0xFF334D92),
+                  minimumSize: Size(100, 50),
+                ),
                 onPressed: () {},
               ),
               shape: RoundedRectangleBorder(
@@ -94,7 +100,7 @@ class LogIn extends StatelessWidget {
             ),
             ButtonTheme(
               height: 50.0,
-              child: RaisedButton(
+              child: ElevatedButton(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
@@ -115,7 +121,10 @@ class LogIn extends StatelessWidget {
                     ),
                   ],
                 ),
-                color: Colors.green,
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.green,
+                  minimumSize: Size(100, 50),
+                ),
                 onPressed: () {},
               ),
               shape: RoundedRectangleBorder(
