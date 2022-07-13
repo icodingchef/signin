@@ -1,7 +1,6 @@
 import 'dart:io';
 
 void main() {
-  print('ddd2');
   showData();
 }
 
@@ -19,8 +18,11 @@ void startTast() {
 void accessData() {
   Duration time = Duration(seconds: 3);
   sleep(time);
-  String info2 = '데이터에 접속중';
-  print(info2);
+
+  Future.delayed(time, () {
+    String info2 = '데이터에 접속중';
+    print(info2);
+  });
 }
 
 void fetchData() {
