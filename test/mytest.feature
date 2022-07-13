@@ -10,11 +10,3 @@
 //#    Given the app is running
 //#    Then I see {'0'} text
 
-import 'dart:io';
-
-void main() {
-  print('ddd2');
-  showData();
-}
-
-void showData() {}
