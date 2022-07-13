@@ -17,6 +17,7 @@ void startTast() {
 
 void accessData() {
   Duration time = Duration(seconds: 3);
+  print('accessData 실시');
   Future.delayed(time, () {
     String info2 = '데이터에 접속중';
     print(info2);
