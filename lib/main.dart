@@ -69,16 +69,14 @@ class LogIn extends StatelessWidget {
             height: 10.0,
           ),
           MyButton(
-            image : Image.asset('images/glogo.png'),
-            text : Text(
-                    'Login with Google',
-                    style: TextStyle(color: Colors.black87, fontSize: 15.0),
-                  ),
+            image: Image.asset('images/glogo.png'),
+            text: Text(
+              'Login with Google',
+              style: TextStyle(color: Colors.black87, fontSize: 15.0),
+            ),
             color: Colors.white,
             onPressed: () {},
-          )
-
-
+          ),
           ButtonTheme(
             height: 50.0,
             child: RaisedButton(
